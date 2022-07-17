@@ -1,0 +1,60 @@
+***************﻿Flower_Classification_documentation***************
+_________________________________________________________________
+
+Here are the steps to describe the technique for implementing this repository :
+
+
+Step-1: Go through the EDA.ipynb notebook for getting the analysis part of the training data.
+
+
+Solution steps :
+
+	* Generating the structured data frame for the train & test directory.
+	* Checking the size of images.
+	* Checking the image by their pixel intensity.
+	* Appending their size into the existing data frame.
+	* Get the count of data according to their class.
+	* Visualizing the dataset according to their classwise count
+	* Applying rotation [0,90,180,270] on random images.
+	
+Challenges :
+
+	* This dataset is highly imbalanced in terms of class count.
+	* The shape is varying for each imagery in the dataset.
+	
+The solution needs to be implemented :
+
+	* Creating the balanced dataset using image augmentation and clipping the dataset in a specific range.
+	* Need to analyze the imagery more in terms of shape resizing / clipping.
+
+
+Step-2: Go through the Unsupervised_Classification_training.ipynb notebook.
+
+Solution steps :
+	* Going through the research paper along with the official repository of UNSUPERVISED REPRESENTATION LEARNING BY PREDICTING IMAGE ROTATIONS https://arxiv.org/pdf/1803.07728.pdf
+	* Data Preparation
+	   * Changing the processing directory path for further process.
+	   * Creating a small balanced dataset for training.
+	* Preparing data loader for training
+	   * Generating the train and test data loader.
+	   * Creating the configuration file for training.
+	* Training the model
+
+
+Challenges :
+
+	* Understanding the pseudo label creating part while training.
+	* Understanding the NetworkInNetwork architecture.
+
+
+Step-3: Go through the Supervised_Classification.ipynb notebook
+
+
+Solution steps:
+
+	* Initialize the transformer.
+	* Create the data loaders for training, test & validation.
+	* Selecting the classification model as GoggleNet
+	* Intializing the training
+	* Evaluate the model on the test set
+	* Designing the KPI : [ Confusion Matrix ]
