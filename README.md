@@ -33,7 +33,14 @@ which includes the unsupervised training while creating the pseudo labels with c
 ![](pred_1.png)
 ![](pred_2.png)
 
+The loss and accouracy graph-
+
+ ![](loss.png)
+![](accuracy.png)
+
+
 6. KPI - Confusion matrix for some classes with graph
+
 ![](confusion.png)
 ![](graph.png)
 
