@@ -33,7 +33,7 @@ which includes the unsupervised training while creating the pseudo labels with c
 ![](pred_1.png)
 ![](pred_2.png)
 
-The loss and accouracy graph-
+The loss and accuracy graph-
 
  ![](loss.png)
 ![](accuracy.png)
