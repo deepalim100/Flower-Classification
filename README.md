@@ -33,6 +33,9 @@ which includes the unsupervised training while creating the pseudo labels with c
 ![](pred_1.png)
 ![](pred_2.png)
 
-6. KPI - Confusion matrix for 50 classes with graph
+6. KPI - Confusion matrix for some classes with graph
 ![](confusion.png)
 ![](graph.png)
+
+7. Go through the summary report for detailed steps .
+-[Summary txt file](https://github.com/deepalim100/Flower-Classification/blob/main/Flower_Classification_documentation.txt)
